@@ -1,0 +1,23 @@
+{
+  "task": "object-detection",
+  "pipeline_tag": "object-detection",
+  "model_type": "yolos",
+  "framework": "pytorch",
+  "model_format": "pt",
+  "input_format": "image",
+  "output_format": "object-detection",
+  "input_size": [640, 640],
+  "labels": [
+    "Road_No_Parking",
+    "Road_Speed_Limit_in_School_Zone",
+    "Road_School_Zone",
+    "Crosswalk",
+    "Road_No_Stopping_or_Parking",
+    "Road_No_Stopping_Zone",
+    "stop",
+    "traffic_lane_yellow_solid",
+    "school_zone",
+    "no_parking",
+    "fire_hydrant"
+  ]
+}
